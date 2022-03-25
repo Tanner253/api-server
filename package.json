@@ -1,0 +1,33 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "api server with sequelize node.js and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest --verbose --watchAll",
+    "start": "node index.js",
+    "db:config": "sequelize init:config",
+    "db:create": "sequelize db:create"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanner253/api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tanner253/api-server/issues"
+  },
+  "homepage": "https://github.com/Tanner253/api-server#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "pg": "^8.7.3",
+    "sequelize": "^6.17.0",
+    "sequelize-cli": "^6.4.1",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.2.2"
+  }
+}
