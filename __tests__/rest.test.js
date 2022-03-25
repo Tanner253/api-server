@@ -61,7 +61,7 @@ describe('testing rest api', () =>{
       songName: "beepboop", artist: "me"
     })
     expect(response.status).toEqual(200);
-    expect(response.body).toEqual('beepboop');
+    expect(response.body.songName).toEqual('beepboop');
   })
 
   test("should READ ALL musics", async () =>{

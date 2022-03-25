@@ -2,12 +2,10 @@
 
 const express = require("express");
 
-const { PeopleModel } = require("../../collection");
+const { peopleCollection } = require("../../collection");
 
 const router = express.Router();
 
-const ICollection = require('../../collection/lib/ICollection.js')
-const peopleCollection = new ICollection(PeopleModel);
 
 
 //get all
