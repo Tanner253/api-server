@@ -1,5 +1,5 @@
 'use strict';
-const { sequelize, PeopleModel, MusicModel } = require('./collection');
+const { sequelize } = require('./collection');
 const { start } = require('./server/server.js');
 const PORT = process.env.PORT || 3000;
 sequelize.sync()
