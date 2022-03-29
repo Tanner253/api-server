@@ -2,8 +2,8 @@
 
 const supertest = require('supertest');
 const server = require('../server/server.js');
-const { sequelize } = require('../collection');
 const request = supertest(server.app);
+const { sequelize } = require('../collection');
 
 beforeAll(async () =>{
   await sequelize.sync();

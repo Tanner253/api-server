@@ -1,6 +1,7 @@
 'use strict';
 
 const {Sequelize, DataTypes} = require('sequelize');
+
 const peopleSchema = require('./people.schema.js');
 const musicSchema = require('./music.schema.js');
 const ICollection = require('./lib/ICollection.js')
