@@ -1,6 +1,6 @@
 # API SERVER PROD
 
-A useless HTTP server for demonstration purposes.
+[DEPLOYED](https://api-server-tp.herokuapp.com/)
 
 ## coming soon!
 ![UML Diagram]();
@@ -21,3 +21,4 @@ Once installed, run `npm start`
 
 ## Features / Routes
 
+This repo features the testing and implementation of modularized routing. 2 Schemas are ysed a music shcema and a people schema, each of which have their own respective routes folder with their own RESTFUL CRUDing routes. See the test files.
